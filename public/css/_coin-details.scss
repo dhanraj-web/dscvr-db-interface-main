@@ -1,0 +1,110 @@
+ul.vote-s-ul {
+    display: flex;
+    justify-content: center;
+    @include remove-ul;
+    li{
+        width: 40%;
+        margin: 0 5px;
+        margin-top: 20px;
+      div{
+        width: 100%;
+        padding: 20px 10px;
+        border: $border;
+        background-color: $black;
+      }
+      &:first-child div{
+        background-color: $green;
+        color: $white;
+    }
+    }
+}
+.chart img {
+    width: 100%;
+}
+
+.shiba {
+  img {
+    width: 30px;
+    margin-right: 5px;
+  }
+}
+.coin-detail-div{
+  color: $menu-text;
+  i{
+    cursor: pointer;
+    color: $green;
+  }
+}
+.exchange {
+  background-color: #d8ba2c;
+  border-radius: 50px;
+  font-weight: 600;
+}
+.btn-green {
+  background: transparent;
+  border: 1px solid $green;
+  color: $green !important;
+  border-radius: 30px;
+  margin-right: 10px;
+  &:hover{
+    color: $white !important;
+    font-weight: 600;
+    background-color: $green;
+  }
+}
+
+
+
+.vote-table {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  h5 {
+    font-size: 16px;
+}
+h4 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+h3{
+  color: $green;
+  label {
+    font-size: 14px;
+    color: $white;
+  }
+}
+}
+
+.modal-content {
+  background-color: $black;
+  .modal-header {
+    border-color: $menu-text;
+  }
+  .modal-footer{
+    border-color: $menu-text;
+  }
+  button.close {
+    color: #fff;
+    opacity: 100%;
+}
+h5{
+  font-size: 18px;
+}
+}
+
+
+
+ul.social-link {
+  font-size: 16px;
+  @include remove-ul;
+  li{
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: $menu-text;
+  }
+}

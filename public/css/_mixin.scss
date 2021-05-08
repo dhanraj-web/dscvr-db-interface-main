@@ -1,0 +1,99 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+@mixin flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex-item-center {
+    display: flex;
+    align-items: center;
+}
+@mixin btn {
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid $green;
+    &:focus{
+        outline: none;
+        box-shadow: none;
+    }
+}
+@mixin remove-ul {
+    list-style: none;
+    padding-left: 0;
+}
+@mixin menuactive {
+    background-color: $black;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    a{
+        color: $green !important;
+    }
+    img.nonactive-img{
+        display: none;
+    }
+    img.active-img{
+        display: block;
+    }
+}
+@mixin gradient-text {
+    background: linear-gradient(to right, #8371ff 0%, #68d9ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+@mixin form-control {
+    background-color: $gray;
+    border-color: $gray;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+    font-size: 13px;
+    height: 45px !important;
+}
+@mixin table-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    border-radius: 50px;
+}
+@mixin table-scroll {
+    &::-webkit-scrollbar {
+        width: 15px;
+      }
+      &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #29374b; 
+        border-radius: 10px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: #29374b; 
+        border-radius: 10px;
+      }
+      &::-webkit-scrollbar-thumb:hover {
+        background: #29374b; 
+      }
+}
+@mixin box {
+    background-color: $gray;
+    border: $border;
+    padding: 20px;
+    border-radius: 5px;
+}
+a{
+    &:hover{
+        text-decoration: none !important;
+    }
+}

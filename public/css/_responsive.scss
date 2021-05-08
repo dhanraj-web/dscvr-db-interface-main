@@ -1,0 +1,265 @@
+//  =================================================== screen 1440 =================================================================
+@media(max-width:1440px){
+    .container-1440 {
+        max-width: 1280px;
+    }
+    .side-menu {
+        width: 20%;
+    }
+    .right-main {
+        width: 80%;
+    }
+    .setting-div {
+        height: 600px;
+    }
+    .box .boc-in p {
+        font-size: 12px;
+    }
+    .vote-table {
+        max-width: 100%;
+    }
+}
+//  =================================================== screen 1366 =================================================================
+@media(max-width:1366px){
+    .container-1440 {
+        max-width: 1180px;
+    }
+    .setting-div {
+        height: 500px;
+    }
+    .user-div {
+        max-width: 100%;
+    }
+    section.home-section ul li {
+        width: 23%;
+        margin-bottom: 15px;
+    }
+    .page-heding-right {
+        width: 45%;
+    }
+}
+//  =================================================== screen 1280 =================================================================
+@media(max-width:1280px){
+    .container-1440 {
+        max-width: 1180px;
+    }
+    .top-div button {
+        font-size: 11px;
+    }
+}
+//  =================================================== screen 1024 =================================================================
+@media(max-width:1024px){
+    .addvitisment img {
+    width: 100%;
+}
+    .index-table img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .vote-table h3 {
+        font-size: 20px;
+    }
+    .vote-table h4 {
+        font-size: 16px;
+    }    
+    .add-div {
+        max-width: 100%;
+    }
+    .filter-div .form-control {
+        width: 33%;
+        margin-bottom: 10px;
+    }
+    .user-div2 {
+        max-width: 100% !important;
+    }
+    .box .boc-in {
+        display: block;
+        text-align: left;
+    }
+    .box .boc-in h5 {
+        text-align: left;
+        margin-top: 10px;
+    }
+    .multi-div .multi-card {
+        width: 100%;
+        margin-right: 0;
+    }
+    .page-heding {
+        display: block;
+    }
+    .page-heding-right {
+        width: 100%;
+        margin-top: 15px;
+    }
+    section.home-section ul li {
+        width: 46%;
+    }
+    .container-1440 {
+        max-width: 100%;
+    }
+    .side-menu {
+        width: 30%;
+    }
+    .right-main {
+        width: 70%;
+    }
+    footer {
+        padding-left: 20px;
+    }
+    .page-heding-right.page-heding-right2 {
+        width: 100%;
+    }
+    .table-responsive.pool-table table {
+        width: 1500px;
+    }
+}
+//  =================================================== screen 991 =================================================================
+@media(max-width:991px){
+    .user-box {
+        margin-bottom: 20px;
+    }
+    .plan-div {
+        display: block;
+    }
+    .plan-div .box {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+//  =================================================== screen 767 =================================================================
+@media(max-width:767px){ 
+    table.table {
+        width: 700px;
+    }
+    .page-heding-right a {
+        margin-left: 0px !important;
+        margin-bottom: 10px;
+    }    
+    .filter-div .form-control {
+        width: 100%;
+    }
+    .page-heding-right div {
+        margin-bottom: 10px;
+    }
+    .page-heding-right {
+        display: block;
+        text-align: left !important;
+    }
+    ul.sponsors-ul li .div123 {
+        width: 280px;
+    }
+    .news-div .news-card span {
+        bottom: 5px;
+    }
+    .news-div {
+        padding-right: 5px;
+    }
+    .table-responsive {
+        padding-right: 5px;
+    }
+    section.home-section ul li {
+        width: 100%;
+        margin-right: 0;
+    }
+    .setting-div {
+        height: auto;
+    }
+    .user-box h4 {
+        font-size: 20px;
+    }
+    .user-box p {
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 15px !important;
+    }
+    .switch {
+        width: 40px;
+        height: 20px;
+    }
+    .user-div .user-box {
+        padding: 10px;
+    }
+    input:checked + .slider:before {
+        transform: translateX(17px);
+    }
+    .page-heding h1 {
+        font-size: 26px;
+    }
+    .slider:before {
+        height: 15px;
+        width: 15px;
+        left: 4px;
+        bottom: 3px;
+    }
+    .side-menu {
+        width: 100%;
+    }
+    .right-main {
+        width: 100%;
+    }
+    .main-body {
+        display: block;
+    }
+    footer {
+        display: block;
+        padding: 10px  !important;
+        text-align: center;
+        ul{
+            justify-content: center;
+        }
+    }
+    .logo {
+        text-align: center;
+    }
+    .side-menu {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s; 
+        padding: 0;
+        padding-top: 20px;
+      }
+      .side-menu ul {
+        padding-left: 20px;
+    }
+      .side-menu .closebtn {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        font-size: 36px;
+        color: $menu-text;
+        text-decoration: none;
+      }
+      span.open-btn {
+        display: block;
+        font-size: 30px;
+        background-color: $gray;
+        color: $menu-text;
+        border: $border;
+        padding: 2px 11px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-weight: 500;
+        position: fixed;
+        right: 10px;
+        top: 10px;
+        z-index: 99;
+    }
+    table th {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+}
+
+@media screen and (max-height: 450px) {
+    .side-menu {padding-top: 15px;}
+    .side-menu a {font-size: 18px;}
+  }
